@@ -49,8 +49,8 @@ for diffQaizPapers in range (int(numberOfModel)):
     try:
         # open files for each exam model and answer sheet for that model .......
         # file directory should to change to match your file where you want to generate quiz models
-        qaizSheet = open ('/Users/tech.oceans/Documents/automateTheBoringStuffWithPython/quizs/QaizSheet%s' %(diffQaizPapers + 1) , 'w')
-        answerSheet = open ('/Users/tech.oceans/Documents/automateTheBoringStuffWithPython/quizs/AnswerSheet%s' %(diffQaizPapers + 1) , 'w')
+        qaizSheet = open ('... specify the directory path where you wanna save the questions models... /QaizSheet%s' %(diffQaizPapers + 1) , 'w')
+        answerSheet = open ('... specify the directory path where you wanna save the Answer models .../AnswerSheet%s' %(diffQaizPapers + 1) , 'w')
 
         # given header for the quiz and answer sheet
         # you can change this section accourding to your need 
